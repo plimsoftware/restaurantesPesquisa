@@ -19,7 +19,8 @@ export const Search = styled.section`
 `;
 
 export const Logo = styled.img`
-  margin: 15px;
+  margin: 0 15px 15px 15px;
+  width: 250px;
 `;
 
 export const Title = styled(Text)`
@@ -34,4 +35,5 @@ export const Carousel = styled(Slider)`
 
 export const Wrapper = styled.div`
   display: flex;
+  flex-direction: row;
 `;

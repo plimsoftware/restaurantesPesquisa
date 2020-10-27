@@ -13,7 +13,7 @@ import {
   Text,
   ImageSkeleton as Skeleton,
 } from '../../components';
-import logo from '../../assets/logo.svg';
+import logo from '../../assets/logo.png';
 import { Container, Search, Logo, Title, Carousel, Wrapper } from './styles';
 
 const Home = () => {
@@ -38,7 +38,7 @@ const Home = () => {
     if (hasRestaurants) {
       return (
         <>
-          <Title size="large">Na sua Área</Title>
+          <Title size="large">Na sua Região</Title>
           <Carousel {...settings}>
             {restaurants.map((restaurant) => (
               <ImageCard key={restaurant.place_id} restaurant={restaurant} />
